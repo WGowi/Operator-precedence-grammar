@@ -88,7 +88,13 @@ C++读取文件，求解firstvt集与lastvt集，构建算符优先关系表，�
 
 ## 构计算分析过程
 
-![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/A66B8FEE13FEE9F8D08DDFBB4FCFE248.jpg)
+初始时，输入指针指向输入串的第一个符号，#入栈;然后比较栈顶终结符a和输入符号b的优先关系:
+1.如a=b,且都是#，输入串合法，分析结束。
+2.如a<b或a=b, b入栈，输入指针右移。
+3.如a>b,寻找位于栈顶的包含a的最小的可规约串(最左素短语) ,
+3.1如果找到，将该串规约。
+3.2如果未找到，输入串非法，分析结束。
+4.如a和b不存在优先关系，输入串非法，分析结束。
 
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/EC58F0F92DDBA8D5D1ABAFB2D9CCE744.jpg)
 
