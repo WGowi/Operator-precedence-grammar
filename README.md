@@ -104,4 +104,15 @@ C++读取文件，求解firstvt集与lastvt集，构建算符优先关系表，�
 
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/Untitled.png)
 
-## 
+## 输出结果
+
+![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/20200905121100.png)
+
+![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/20200905121116.png)
+
+![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/20200905121147.png)
+
+## 代码链接
+
+[C++实现算符优先文法](https://github.com/WGowi/Operator-precedence-grammar/tree/master)
+
