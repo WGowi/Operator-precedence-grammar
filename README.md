@@ -96,6 +96,6 @@ C++读取文件，求解firstvt集与lastvt集，构建算符优先关系表，�
 
 ## 实现过程
 
-![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/Untitled Diagram.png)
+![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/Untitled.png)
 
 ## 
